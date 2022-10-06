@@ -387,3 +387,364 @@ small{
 .nav-item-1{
   margin-top: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  header { 
+    display: block;
+    background-color: #4617fe;
+    height: 400px;
+  }
+  .color-1{
+    margin-top: -20%;
+  }
+  body {
+    display: block;
+  }
+
+  nav {
+    display: block;
+    padding: 1rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+ .nav-item-1{
+  display: none;
+ }
+  .hero-section {
+    margin: 1rem;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .header-text {
+    margin-top: 1rem;
+    font-size: 0rem;
+  }
+  .header-text h2{
+    font-size: 40px;
+  }
+  .header-text p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .header-image {
+    
+    width: 300px;
+    position: absolute;
+    right: 10rem;
+    top: 41rem;
+  }
+  
+  .companies {
+    display: flexs;
+    margin-left: 1rem;
+    margin-top: 18rem;
+    width: fit-content;
+    font-size: small;
+  }
+  .company-items{
+    display:block;
+    float:left;
+    width:80px; /* adjust */
+    height:100px; /* adjust */
+    padding: 5px; /*adjust*/
+
+  }
+  .companies a {
+    font-family: "Righteous";
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  .api {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .api-heading {
+    margin-bottom: 1rem;
+  }
+  .cards {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+
+  .card,
+  .card-active {
+    padding: 2rem 1rem;
+  }
+  .card:hover {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8px;
+  }
+  .card-active {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8px;
+  }
+
+  .card-head-active {
+    color: #4617fe;
+  }
+
+  .card-head,
+  .card-head-active {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .next{
+    display: none;
+  }
+
+  .blog-heading {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+    margin: auto;
+    gap: 3rem;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .blog-image {
+    display: flex;
+    align-items: center;
+  }
+  .blog-image img {
+    border-top-right-radius: 3rem;
+    margin-top: 5px;
+  }
+
+  .blog-content {
+    display: none;
+  }
+  .blog-content h6 {
+    color: #4617fe;
+    font-size: 1rem;
+  }
+
+  .blog-bottom {
+    position: absolute;
+    bottom: -26px;
+  }
+  .blog-card-bottom-image {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .blog-author {
+    position: absolute;
+    bottom: -24px;
+    right: 8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4617fe;
+  }
+
+  /* #E9EDFF */
+
+  .faq-section {
+    
+    padding: 2rem;
+    text-align: center;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #414349a1;
+    color: #fff;
+    height: auto;
+    position: relative;
+  }
+
+  .faq-content h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .faq-content h4 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .faq-content :nth-child(3) {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .faq-content button {
+    padding: 1rem 2rem;
+    background-color: #4617fe;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .faq-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-image img {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -20;
+  }
+
+  .download-section {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0.5rem;
+  }
+
+  .download-content{
+    display: flex;
+    font-size: small;
+
+  }
+
+  .download-email form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+  }
+
+  .download-email form {
+    position: flex;
+    right: -10rem;
+    top: 20rem;
+    width: 10%;
+    background: #e9edff;
+    margin-top: -100%;
+  }
+
+  .download-email input {
+    display: flex;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin: 5px;
+    background: #e9edff;
+    color: #000;
+    border: none;
+    border-radius: 10rem;
+    width: 250px;
+    
+    align-items: center;
+    margin-left: -30rem;
+   
+  }
+
+  .now-1{
+    margin-top: 60px;
+  }
+
+  .download-email button {
+    display: inline-block;
+    background: #4617fe;
+    color: #fff;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+    margin: 8px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  
+  .enter-01{
+    font-size: 10px;
+  }
+  .down-01{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    right: 40%;
+    margin-top: 15px;
+    width: fit-content;
+    width: 20%;
+    position: relative;
+  }
+  .footer-section{
+    margin-top: 30px;
+    position: static;
+    display: block;
+    margin-bottom: -10px;
+    display: flex;
+    gap: 25%;
+    height: 200px;
+  }
+  .footer-left{
+    display: block;
+    padding: 2px;
+
+  }
+  .footer-logo{
+    margin-left: -35px;
+    margin-top: -30px;
+
+  }
+  
+  .logos-list{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -240px;
+  }
+  
+  .list{
+    display: none;
+  }
+
+  .footer-right{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -40px;
+    width: -5000px;
+    size: 200%;
+    width: 300px;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px;  
+       
+  }
+}

@@ -2,9 +2,9 @@
 
 ## By Sujal
 
-## [Link for Project 1](https://proj-09-fullstack.netlify.app/) 
+## [Link for Project 9](https://proj-09-mobile-responsive.netlify.app/) 
 
-![project 1 completed](./screenshot.png)
+![project 9 completed](./screenshot.png)
 
 ## What I learned ? How was my experience while making this project?
 
